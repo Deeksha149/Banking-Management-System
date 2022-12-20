@@ -1,0 +1,144 @@
+body{
+    background-color: #212529 !important;
+}
+.img1{
+     margin-top:10px; 
+    float:right;
+    width:700px;
+    height:530px; 
+}
+.container1{
+    float: left;
+}
+.spark{
+    margin-left:250px;
+    margin-top: 110px;  
+    font-size: 60px;
+    color:floralwhite;
+    font-family: Arial , Helvetica, sans-serif;
+}
+.spark1{
+    margin-left:250px; 
+    font-size: 20px;
+    color:floralwhite;
+    font-family: Arial , Helvetica, sans-serif;
+}
+.card{
+    margin: 70px;
+}
+#abo{
+    float:left;
+    margin-left:80px;
+}
+.profile{
+    width: 25rem;
+    height:35rem;
+    float:left;
+    margin-left:100px;
+    margin-right: 20px;
+}
+.myself{
+    position:absolute;
+    margin-top:-80px;
+    margin-left:250px;
+    font-size:30px;
+}
+span{
+    margin-left:20px;
+}
+.l1{
+    height: 600px;
+}
+.footer{
+    color:floralwhite;
+    text-align:center;
+}
+#it{
+    font-weight: 700;
+}
+#it :hover{
+    background-color:white;
+    color: #212529;
+}
+.scroll{
+    height:500px;
+    overflow: scroll;
+    background-color: #879c83b3;
+}
+ .social-media i{
+    font-size: 4rem;
+    transition: color 650ms;
+} 
+
+.fa-medium:hover{
+    color: #ffffff;
+}
+
+.fa-github-square:hover{
+    color: #ffffff;
+}
+
+.fa-linkedin:hover{
+    color: #ffffff ;
+}
+
+
+.fa-twitter-square:hover{
+    color: #ffffff ;
+}
+
+.fa-instagram-square:hover{
+    color: #ffffff ;
+}
+ 
+.icon-link{
+    float: left;
+}
+.ul1{
+    margin-top: 40px;
+    list-style-type:none;
+}
+.icon-link{
+    margin-left: 40px;    
+}
+@media  only screen and (max-width:720px) and (min-width:320px){
+    .spark1{
+        margin-top:0px;
+        margin-left:70px; 
+        font-size: 15px;
+    }
+    .spark{
+        margin-top:0px;
+        margin-left:70px;
+        font-size: 45px 
+    }
+    .img1{
+        width:380px;
+        height:280px; 
+        float:left;
+    }
+    .card{
+        margin: 20px !important; 
+    }
+    .l1{
+        padding-left:-100px;
+    }
+    .profile{
+        width: 22rem;
+        height:33rem;
+        float:left;
+        margin-left:10px;
+        margin-right: 20px;
+    }
+    .social-media{
+        margin-left: -40px;
+        margin-bottom: 200px;
+    }
+    .myself{
+        position:absolute;
+        margin-top:-80px;
+        margin-left:135px;
+        font-size:30px;
+    }
+}
+    
